@@ -1,0 +1,23 @@
+
+--### stop docker container ####
+docker stop container_ID_or_name
+
+--### Check running Images ####
+docker ps
+
+
+--### Check Container list ####
+docker container ls -a
+
+--###  Run Exisitng Container  ####
+docker start existing_container_ID_or_name
+
+--###  Run  new docker container with Image ####
+docker run --name [container name] [container image]
+
+
+
+
+
+-- ## Run docker compose ######
+docker-compose -f < name of file.yml> up -d
